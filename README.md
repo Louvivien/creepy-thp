@@ -34,10 +34,13 @@ La méthode récupére 20 utilisateurs en fonction de notre critères de recherc
 Envoie un tweet à chacune des universités selectionnées.
 
 **tweet_students** :
-La méthode permet de récupérer l'id des followers des unviersités et .screen_name de récupérer leur nom d'utilisateur à partir de son id.
+La méthode permet de récupérer l'id des followers des universités. En utilisant .screen_name, on récupére leur nom d'utilisateur à partir de leur id.
 
 **tweet_entrepreneurs** :
 La méthode permet de tweeter les followers de notre selection entrepreneurs.
+
+**send_tweet**
+La méthode permet d'envoyer les tweets
 
 
 ## Contenu
