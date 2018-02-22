@@ -25,11 +25,20 @@ Nombre de mails récupérés
 ### Moyens
 
 #### Twitter
-Création d'un bot twitter qui s'adresse à nos trois cibles. 
+Création d'un bot twitter qui permet de s'adresser à nos trois cibles.
 
-La méthode select_universities récupérer 20 utilisateurs en fonction de notre critères de recherche.
+	**select_universities** :
+La méthode récupére 20 utilisateurs en fonction de notre critères de recherche.
 
-La méthode client.followers permet de récupérer l'id des utilisateurs et .screen_name de récupérer le nom de l'utilisateur à partir de son id.
+	**tweet_universities** :
+Envoie un tweet à chacune des universités selectionnées.
+
+	**tweet_students** :
+La méthode permet de récupérer l'id des followers des unviersités et .screen_name de récupérer leur nom d'utilisateur à partir de son id.
+
+	**tweet_entrepreneurs** :
+La méthode permet de tweeter les followers de notre selection entrepreneurs.
+
 
 ## Contenu
 
