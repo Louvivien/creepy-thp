@@ -1,9 +1,10 @@
 class SendTweet
 	def perform
 		log_in_to_twitter
+		select_universities
 		#tweet_universities
 		#tweet_students
-		testing
+		#testing
 	end
 
 	def log_in_to_twitter
@@ -19,8 +20,19 @@ class SendTweet
 		@client.update(tweet)
 	end
 
+	def select_universities
+		@universities = []
+		@criteria = ['universite','fac','faculte','univ']
+		@criteria.each do |criteria|
+			@client.user_search(criteria).each do |universite|
+				@universities << universite.screen_name
+			end
+		end
+		@universities
+	end
+
 	def tweet_universities
-		@universities = ["@USPC_news","@SorbonneParis1","@UnivParisSaclay","@UPECactus","@univamu","@univpaulvalery","@AssasParis2","@CPUniversite","@univ_paris13","@SorbonneParis3","@UParisDescartes","@UnivParis8","@ParisDiderot","@UQAM","@UParisNanterre"‏,"@Paris_Dauphine","@UnivNantes","@unilim","@UBO_UnivBrest","@UnivLaRochelle","@UnivCorse","@Univ_Lorraine","@Univ_St_Etienne","@upemlv","@UnivLyon1","@univ_lyon2","@UniversiteLyon","@UnivRennes_2","@ucly","@UnivEvry","@universitereims"‏,"@ScienceSorbonne","@univpaulvalery","@FacLibredeDroit‏","@Universite_Caen‏"‏‏‏]
+		select_universities
 		@universities.each do |university|
 			send_tweet("#{university}, vous connaissez The Hacking Project ? La seule formation de code gratuite pour vos étudiants. Pour la découvrir, c'est par ici : http://bit.ly/2EXYivy")
 			sleep(30)
@@ -37,9 +49,4 @@ class SendTweet
 			end
 		end
 	end
-
-	def testing
-		@client.user_search('Université')
-	end
-
 end
