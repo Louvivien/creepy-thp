@@ -14,7 +14,18 @@
 	/*background-color: blue;*/
 	display: flex;
 	justify-content: space-between;
-	margin: 50px auto 0 auto;
+	margin: 110px auto 0 auto;
+}
+
+.content_head h1{
+	font-weight: 900;
+	font-size: 60px;
+}
+
+.content_head p{
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 1.5;
 }
 
 .head_zone{
@@ -31,24 +42,27 @@
 
 }
 
-.head_l, {
-	padding: 0 20px ;
+.head_l, .head_r {
+	font-weight: 800;
+	font-size: 20px;
 }
 
 .head_l{
 	width: 50%;
 	height: 100%;
+	padding: 0 20px ;
 	/*background-color: yellow;*/
 }
 
 .head_r{
 	width: 50%;
 	height: 100%;
+	padding: 0 20px ;
 	/*background-color: red;*/
 }
 
-.container-fluid{
+/*.container-fluid{
 	width: 1200px;
 	height: auto;
 	padding: 50px 0 50px 0;
-}
+}*/
