@@ -8,6 +8,6 @@ class HomeController < ApplicationController
   def schools
   end
 
-  def journalists
+  def entrepreneurs
   end
 end
