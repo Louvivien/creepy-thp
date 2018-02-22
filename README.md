@@ -14,7 +14,7 @@ Pour voir l'app déployée, [c'est ici !](https://discover-thp.herokuapp.com/)
 
 **Le message** :
 
-3. Les journalistes
+3. Les entrepreneurs
 
 **Le message** :
 
@@ -48,6 +48,6 @@ Installation de google analytics pour suivi :
 | -------------- |:------------:| --------:| -----:| -----------:
 | Etudiants      | right-aligned| $1600    | $1600 |
 | Ecoles         | centered     |   $12    |$12    |
-| Journalistes   | are neat     |    $1    | $1    |
+| Entrepreneurs  | are neat     |    $1    | $1    |
 
 
