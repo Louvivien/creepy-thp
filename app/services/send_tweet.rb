@@ -2,7 +2,6 @@ class SendTweet
 	def perform
 		log_in_to_twitter
 		select_universities
-		select_journalists
 		#tweet_universities
 		#tweet_students
 		#testing
@@ -52,7 +51,7 @@ class SendTweet
 	end
 
 	def tweet_entrepreneurs
-		@entrepreneurs = ['@PepiteFrance', '@joinstationf', '@_JoinLion']
+		@entrepreneurs = ['@PepiteFrance', '@joinstationf', '@_JoinLion', '@100000e', '@SPoEntrepreneur', '@BpifranceExcell', '@PartechShaker', '@pepiniere27']
 		@universities.each do |university|
 			puts university
 			@client.followers(university).each do |follower|
