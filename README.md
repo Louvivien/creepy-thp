@@ -27,16 +27,16 @@ Nombre de mails récupérés
 #### Twitter
 Création d'un bot twitter qui permet de s'adresser à nos trois cibles.
 
-	**select_universities** :
+**select_universities** :
 La méthode récupére 20 utilisateurs en fonction de notre critères de recherche.
 
-	**tweet_universities** :
+**tweet_universities** :
 Envoie un tweet à chacune des universités selectionnées.
 
-	**tweet_students** :
+**tweet_students** :
 La méthode permet de récupérer l'id des followers des unviersités et .screen_name de récupérer leur nom d'utilisateur à partir de son id.
 
-	**tweet_entrepreneurs** :
+**tweet_entrepreneurs** :
 La méthode permet de tweeter les followers de notre selection entrepreneurs.
 
 
