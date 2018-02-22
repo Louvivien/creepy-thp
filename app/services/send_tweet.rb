@@ -5,7 +5,8 @@ class SendTweet
 
 	def perform
 		log_in_to_twitter
-		send_tweet(@tweet)
+		#send_tweet(@tweet)
+		tweet_universities
 	end
 
 	def log_in_to_twitter
@@ -20,4 +21,11 @@ class SendTweet
 	def send_tweet(tweet)
 		@client.update(tweet)
 	end
+
+	def tweet_universities
+		universities = []
+		universities << @client.user("université")
+		#universities.each {|university| @client.update(tweet)}
+	end
+
 end
