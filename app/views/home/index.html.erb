@@ -62,7 +62,7 @@
   </div>
 </nav>
 
-<div class="head_zone">
+<!-- <div class="head_zone">
   <div class="content_head">
 
 	<div class="head_l">
@@ -84,14 +84,55 @@
 
 
 	</div>
+</div> -->
+
+
+<div class="headspec">
+
+<div class="container">
+  <div class="row">
+
+	<div class="col-sm-6">
+	
+			<h1>Le code n’a jamais été aussi accessible</h1>
+			<p>Devenir développeur ?
+			</br>Passez d'une idée à un produit?
+			</br>3 mois pour mettre toutes les chances
+			de votre côté !</p>
+		
+	</div>
+
+
+	<div class="col-sm-6">
+
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe width="854" height="480" style="border: 10px solid black;" src="https://www.youtube.com/embed/c4D786zRO6g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+
+	</div>
+
+
+	</div>
 </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
 
 <div class="container-fluid bg-grey">
   <div class="container-fluid text-center">
 
 
-<h2>Le code t'intéresse ? </h2>
-<p style="font-size: 18px;">Les fondateurs Félix et Charles vous confient leurs meilleurs conseils et astuces en</br>matière de code, et répondent à toutes vos questions.</p>
+<h2 class="titulo-color">Le code t'intéresse ? </h2>
+<p style="font-size: 18px; color: #000;">Les fondateurs Félix et Charles vous confient leurs meilleurs conseils et astuces en</br>matière de code, et répondent à toutes vos questions.</p>
 
 </div>
 
@@ -130,29 +171,35 @@
 
 
 
-<h2>The Hacking Project en 3 mots clés</h2>
+<h3 class="titulo">The Hacking Project en 3 mots clés</h3>
     <div class="col-sm-4">
-      <h2>Gratuité</h2><br>
-      <h4>Voulez-vous apprendre à coder gratuitement ? Une formation qui vous accueille comme vous êtes, quels que soient votre parcours, vos motivations ou vos moyens. <br>
-      
+      <h2 class="advantage"><span style="color:#F94929">Gratuité<span></h2>
+
+<span style="color: #F94929;"><i class="far fa-money-bill-alt fa-5x"></i></span>
+
+
+
+      <h4></br>Voulez-vous apprendre à coder gratuitement ? <strong>Une formation qui vous accueille comme vous êtes</strong>, quels que soient votre parcours, vos motivations ou vos moyens. </h4>
       
     </div>
 
   <div class="col-sm-4">
-      <h2>Excellence</h2><br>
-      <h4>Voulez-vous apprendre à coder votre site Internet ou votre chatbot ?
-Une formation exigeante, plusieurs projets validants par semaine pendant 3 mois à temps plein. Un projet final assez complexe pour valider vos nouvelles compétences. </h4><br>
+      <h2 class="advantage"><span style="color:#F01668">Excellence</span></h2>
+<span style="color: #F01668;"><i class="fas fa-graduation-cap fa-5x"></i></span>
+      <h4></br>Voulez-vous apprendre à coder votre site Internet ou votre chatbot ?
+Une formation exigeante, plusieurs projets validants par semaine <strong>pendant 3 mois à temps plein</strong>. Un projet final assez complexe pour valider vos nouvelles compétences. </h4><br>
       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p> -->
       
     </div>
 
 
       <div class="col-sm-4">
-      <h2>Entraide</h2><br>
-      <h4>Voulez-vous faire partie d’un mouvement qui influencera le 21ème siècle ?
-Apprendre à trouver de l’aide, donner du temps aux autres : des compétences clés en matière de code. Une communauté qui vous aide à franchir des paliers et partage les bons plans. </h4><br>
-      
+      <h2 class="advantage"><span style="color:#F94929">Entraide</span></h2>
+      <span style="color: #F94929;"><i class="fas fa-hand-peace fa-5x"></i></span>
+      <h4></br><strong>Voulez-vous faire partie d’un mouvement qui influencera le 21ème siècle ?</strong>
+Apprendre à trouver de l’aide, donner du temps aux autres : des compétences clés en matière de code. <strong>Une communauté qui vous aide à franchir des paliers et partage les bons plans.</strong> </h4><br>
       <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
+
     </div>
 
 
@@ -162,7 +209,7 @@ Apprendre à trouver de l’aide, donner du temps aux autres : des compétences
 
 
 
-
+<div class="container">
 
 <div class="container-fluid bg-grey">
 
@@ -171,23 +218,32 @@ Apprendre à trouver de l’aide, donner du temps aux autres : des compétences
 <div id="services" class="container-fluid text-center">
   <h2>Ils ont fait The Hacking Project </h2>
   
-  <br>
+  
 
   <!-- <div class="row slideanim"> -->
     <div class="col-sm-4">
-      <!-- <span class="glyphicon glyphicon-off logo-small"></span> -->
-      <h4>Justine</h4>
-      <p>« The Hacking Project a été une révélation, j’ai trouvé ma vocation. Je suis même en passe de trouver mon premier poste de développeur. »</p>
+      
+      <h4 class="testimonial-t">Justine</h4>
+      <div class="imago"><%= image_tag('justine.jpg', :width => "100%", :height => "auto") %></div>
+
+      <p class="testimonial" >« The Hacking Project a été une révélation, j’ai trouvé ma vocation. Je suis même en passe de trouver mon premier poste de développeur. »</p>
     </div>
+
+
     <div class="col-sm-4">
-      <!-- <span class="glyphicon glyphicon-heart logo-small"></span> -->
-      <h4>Sylvain</h4>
-      <p>« Grâce à The Hacking Project, j’ai pu comprendre les besoins techniques de mon projet et gagner en autonomie. Mon projet avance enfin ! » </p>
+     
+
+      <h4 class="testimonial-t">Sylvain</h4>
+      <div class="imago"><%= image_tag('sylvain.jpg', :width => "100%", :height => "auto") %></div>
+      <p class="testimonial">« Grâce à The Hacking Project, j’ai pu comprendre les besoins techniques de mon projet et gagner en autonomie. Mon projet avance enfin ! » </p>
     </div>
+
+
     <div class="col-sm-4">
-      <!-- <span class="glyphicon glyphicon-lock logo-small"></span> -->
-      <h4>Samba</h4>
-      <p>« J’avais déjà une bonne pratique du frontend. Je suis venu à The Hacking Project pour monter en compétence sur le backend. J’ai de nouvelles opportunités professionnelles ! »</p>
+      
+      <h4 class="testimonial-t">Nicolas</h4>
+      <div class="imago"><%= image_tag('nicolas.png', :width => "100%", :height => "auto") %></div>
+      <p class="testimonial">« J’avais déjà une bonne pratique du frontend. Je suis venu à The Hacking Project pour monter en compétence sur le backend. J’ai de nouvelles opportunités professionnelles ! »</p>
     </div>
  <!--  </div> -->
 
@@ -196,7 +252,7 @@ Apprendre à trouver de l’aide, donner du temps aux autres : des compétences
 </div>
 
 
-
+</div>
 
 
 
