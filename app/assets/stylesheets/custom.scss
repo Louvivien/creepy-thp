@@ -7,7 +7,7 @@
 
 
 /*Mailchimp css*/
-#mc_embed_signup{
+/*#mc_embed_signup{
 	background:#fff;
 	clear:left;
 	font:14px Helvetica,Arial,sans-serif;
@@ -16,11 +16,11 @@
     margin: auto;
     border-radius: 10px;
     border: 1px solid #e1e1e1;
-}
+}*/
 
-#mailchimp input{
+
+/*#mc_embed_signup input {
 	font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
-
 font-size: 15px;
 border: 1px solid #ABB0B2;
 -webkit-border-radius: 3px;
@@ -29,51 +29,61 @@ border-radius: 3px;
 color: #343434;
 background-color: #fff;
 box-sizing: border-box;
-height: 80px;
+height: 0px;
 padding: 0px 2em;
 display: inline-block;
 margin: 0;
 width: 350px;
-/*vertical-align: top;*/
 }
-
-#mailchimp input.email { background: red}
-
+*/
 
 
-/*
+
 #mailchimp {
 	background: #f8f8f8;
 	color: #3D6392;
 	padding: 20px 15px;
+	width: 60%;
+	margin:auto; 
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	font:14px Helvetica,Arial,sans-serif;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+
 }
 	#mailchimp input {
-		 border: medium none;
+	border: medium none;
     color: gray;
-    font-family: times new roman;
+    font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
     font-size: 16px;
     font-style: italic;
     margin-bottom: 10px;
-    padding: 8px 10px;
+    padding: 10px 10px;
     width: 300px;
 		border-radius: 20px;
 		-moz-border-radius: 20px;
 		-webkit-border-radius: 20px;
+		
 	}
-		#mailchimp input.email { background: #fff }
-		#mailchimp input.name { background: #fff}
+		#mailchimp input.email { background: #fff; border: 2px solid #ccc; text-align: center; }
+		
+
+		/*#mailchimp input.name { background: #fff}*/
 		#mailchimp input[type="submit"] {
-			background: #115B87;
+			background: #F9492A;
 			color: #fff;
 			cursor: pointer;
 			font-size: 15px;
-			width: 35%;
-			padding: 8px 0;
+			width: 100%;
+			padding: 10px 0;
+			
 
 		}
-			#mailchimp input[type="submit"]:hover { color: #F2C94C }
-*/
-
+			#mailchimp input[type="submit"]:hover { background:#F01668;color:#fff;
+			    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
 /*Mailchimp css*/
 
 
