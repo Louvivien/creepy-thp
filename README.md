@@ -94,10 +94,10 @@ Installation de google analytics pour suivi :
 * du trafic entrant par canaux d'acquisition
 * de performance des différentes landings (taux de rebound, taux de conversion)
 
-![Capture d'ecran Analytics](images/analytics.png)
+![Capture d'ecran Analytics](https://drive.google.com/file/d/16nFkix6N0g38tqR5b0Z6XFj9XF2l7f0_/view?usp=sharing)
 
 ### Résultats : Acquisition et transformation avec Mailchmimp :mailbox_with_mail:
 
 Nous pensons que nous ne disposons pas d'assez de temps (vous non plus d'ailleurs) entre l'implémentation et la correction pour tirer des conclusions pertinentes. :broken_heart:
 
-![Capture d'ecran Mailchimp](/images/screenshots/mailchimp.png)
+![Capture d'ecran Mailchimp](images/screenshots/mailchimp.png)
