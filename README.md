@@ -109,3 +109,13 @@ Installation de google analytics pour suivi :
 Nous pensons que nous ne disposons pas d'assez de temps (vous non plus d'ailleurs) entre l'implémentation et la correction pour tirer des conclusions pertinentes. :broken_heart:
 
 ![Capture d'ecran Mailchimp](https://imageshack.com/a/img922/2181/MkrmqY.png)
+
+## Pistes d'amélioration
+
+* Nous aurions pu faire le lien avec les réseaux sociaux existants de THP pour créer du traffic.
+
+* Nous aurions aussi pu travailler pour identifier des communautés sur Facebook et les cibler.
+
+* La cible pro en reconversion aurait pu être travaillée.
+
+* On aurait pu donner des exemples de projets finaux sympas ou renvoyer sur le demo day pour aider les prospects à se projeter.
