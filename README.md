@@ -9,7 +9,7 @@ Pour réaliser ce travail, nous avons brainstormé. Ensemble, nous avons décid�
 * de la répartition des tâches
 
 Justine et Louis ont travaillé sur le __bot Twitter__.
-Nicolas a travaillé sur __Google Analytics__ et l'intégration de __MailChimp__.
+Nicolas a travaillé sur __Google Analytics__ ,l'intégration de __MailChimp__ et l'optimisation __SMO/SEO__.
 Samba a travaillé sur le __template CSS__ et la __charte graphique__.
 Sylvain a travaillé sur le __wording__ des landing pages.
 
@@ -38,6 +38,14 @@ Nous nous sommes concentrés sur __trois profils__ pour obtenir de l'acquisition
 ### Metric :straight_ruler:
 
 Nous avons connecté notre landing page à MailChimp. Notre principal KPI est donc le taux d'acquisition, i.e. nombre d'inscription d'adresses mail à nos infos et tips de code.
+
+
+### SEO/SMO et optimisation de la visibilité :fire:
+
+Intégration de balises de meta-données pour les robots crawlers de Google afin de pouvoir améliorer notre SEO et l'apercu/le descriptif de notre page lors d'une recherche sur le moteur de recherche.
+
+Intégration de balises pour optimiser l'aperçu des liens lors du partage sur Facebook avec Open Graph.
+
 
 ### Moyens :package:
 
