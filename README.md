@@ -75,15 +75,15 @@ La méthode permet d'envoyer les tweets.
 
 1. Etudiants :school_satchel:
 
-RDV sur [cette page](https://www.discover-thp.herokuapp.com/etudiants)
+RDV sur [cette page](https://discover-thp.herokuapp.com/etudiants)
 
 2. Ecoles :school:
 
-RDV sur [cette page](https://www.discover-thp.herokuapp.com/ecoles)
+RDV sur [cette page](https://discover-thp.herokuapp.com/ecoles)
 
 3. Entrepreneurs :necktie:
 
-RDV sur [cette page](https://www.discover-thp.herokuapp.com/entrepreneurs)
+RDV sur [cette page](https://discover-thp.herokuapp.com/entrepreneurs)
 
 ### Wordings :black_nib:
 
