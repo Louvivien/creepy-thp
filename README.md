@@ -8,7 +8,7 @@ Pour réaliser ce travail, nous avons brainstormé. Ensemble, nous avons décid�
 * des outils à utilisers
 * de la répartition des tâches
 
-Justine et Louis ont travaillé sur le __bot Twitter__. 
+Justine et Louis ont travaillé sur le __bot Twitter__.
 Nicolas a travaillé sur __Google Analytics__ et l'intégration de __MailChimp__.
 Samba a travaillé sur le __template CSS__ et la __charte graphique__.
 Sylvain a travaillé sur le __wording__ des landing pages.
@@ -94,8 +94,10 @@ Installation de google analytics pour suivi :
 * du trafic entrant par canaux d'acquisition
 * de performance des différentes landings (taux de rebound, taux de conversion)
 
+![alt text](screenshots/analytics.png "Google Analytics")
 
-### Résultats :mailbox_with_mail:
+### Résultats : Acquisition et transformation avec Mailchmimp :mailbox_with_mail:
 
 Nous pensons que nous ne disposons pas d'assez de temps (vous non plus d'ailleurs) entre l'implémentation et la correction pour tirer des conclusions pertinentes. :broken_heart:
 
+![alt text](screenshots/mailchimp.png "Listes mailing Mailchimp")
