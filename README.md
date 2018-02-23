@@ -1,6 +1,6 @@
 # Want to Discover THP ?
 
-Pour voir l'app déployée, [c'est ici !](https://www.discover-thp.herokuapp.com/) :raised_hands:
+Pour voir l'app déployée, [c'est ici !](https://discover-thp.herokuapp.com/) :raised_hands:
 
 Pour réaliser ce travail, nous avons brainstormé. Ensemble, nous avons décidé :
 * de l'aspect global de la landing page
