@@ -2,9 +2,9 @@ class SendTweet
 	def perform
 		log_in_to_twitter
 		select_universities
-		#tweet_universities
-		#tweet_students
-		#testing
+		tweet_universities
+		tweet_students
+		tweet_entrepreneurs
 	end
 
 	def log_in_to_twitter
@@ -52,14 +52,9 @@ class SendTweet
 
 	def tweet_entrepreneurs
 		@entrepreneurs = ['@PepiteFrance', '@joinstationf', '@_JoinLion', '@100000e', '@SPoEntrepreneur', '@BpifranceExcell', '@PartechShaker', '@pepiniere27']
-		@universities.each do |university|
-			puts university
-			@client.followers(university).each do |follower|
-				puts follower.screen_name
-		@entrepreneurs = ['@PepiteFrance', '@joinstationf', '@_JoinLion']
 		@entrepreneurs.each do |entrepreneur|
 			@client.followers(entrepreneur).each do |follower|
-				send_tweet("@#{follower.screen_name}, vous connaissez The Hacking Project ? La seule formation de code gratuite pour vous aider à monter votre boîte. Pour la découvrir, c'est par ici : http://bit.ly/2GxzQOT")
+				send_tweet("@#{follower.screen_name}, vous connaissez The Hacking Project ? La seule formation de code gratuite pour vous aider à monter votre boîte. Pour la découvrir, c'est par ici : http://bit.ly/2GDnm8a")
 				sleep(30)
 			end
 		end
