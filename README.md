@@ -1,6 +1,6 @@
 # Want to Discover THP ?
 
-Pour voir l'app déployée, [c'est ici !](www.discover-thp.herokuapp.com/) :raised_hands:
+Pour voir l'app déployée, [c'est ici !](https://www.discover-thp.herokuapp.com/) :raised_hands:
 
 Pour réaliser ce travail, nous avons brainstormé. Ensemble, nous avons décidé :
 * de l'aspect global de la landing page
@@ -75,15 +75,15 @@ La méthode permet d'envoyer les tweets.
 
 1. Etudiants :school_satchel:
 
-RDV sur [cette page](www.discover-thp.herokuapp.com/etudiants)
+RDV sur [cette page](https://www.discover-thp.herokuapp.com/etudiants)
 
 2. Ecoles :school:
 
-RDV sur [cette page](www.discover-thp.herokuapp.com/ecoles)
+RDV sur [cette page](https://www.discover-thp.herokuapp.com/ecoles)
 
 3. Entrepreneurs :necktie:
 
-RDV sur [cette page](www.discover-thp.herokuapp.com/entrepreneurs)
+RDV sur [cette page](https://www.discover-thp.herokuapp.com/entrepreneurs)
 
 ### Wordings :black_nib:
 
