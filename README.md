@@ -19,6 +19,9 @@ Pour voir l'app déployée, [c'est ici !](https://discover-thp.herokuapp.com/)
 
 **Le message** : Ils souhaitent se former en code pour sortir un MVP ou simplement pour avoir des bases pour manager des profils techs
 
+### Metric
+
+Nous avons connecté notre landing page à mailchimp. Notre principal KPI est donc le taux d'acquisition, i.e. d'inscription d'adresse mail à nos infos et tips de code.
 
 ### Moyens
 
@@ -68,6 +71,7 @@ Le wording de chaque landing page ainsi que les atouts de THP changent d'une cib
 Installation de google analytics pour suivi :
 - du trafic entrant par canaux d'acquisition
 - de performance des différentes landings (taux de rebound, taux de conversion)
+
 
 ### Résultats
 
